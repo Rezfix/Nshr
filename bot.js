@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const iR25RR = new Discord.Client();
 
     console.log('---------------');
-    console.log('BOT IS Online')
+    console.log('BOT Online')
     console.log('---------------')
  
 iR25RR.on("guildMemberAdd", member => {
@@ -10,15 +10,12 @@ iR25RR.on("guildMemberAdd", member => {
   return channel.send(`
 
 
-**
-السلام عليكم :slight_smile: 
+** سيرفر ممتاز + ثقة  
 
-سيرفر بيع وشراء ثقة  :link: 
-سيرفر قيف اوايات يوميه 
-وفيه  تصويت على 
-100K Credit ProBot
-
-رابط السيرفر** https://discord.gg/4kt8cKq
+5 invite = 12k credits
+10 invite = 22k credits
+20 invite = 44k credits**
+https://discord.gg/UduFa7g
 
 `) 
 }).catch(console.error)
