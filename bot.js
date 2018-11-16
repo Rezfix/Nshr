@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const iR25RR = new Discord.Client();
 
     console.log('---------------');
-    console.log('Power Online')
+    console.log('Power IS Online')
     console.log('---------------')
  
 iR25RR.on("guildMemberAdd", member => {
