@@ -9,13 +9,10 @@ iR25RR.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 
-
-** سيرفر ممتاز + ثقة  
-
-5 invite = 12k credits
-10 invite = 22k credits
-20 invite = 44k credits**
-https://discord.gg/UduFa7g
+**
+-أحادثينا حقيقية وتواجدنا دائم حتى وأن ضاقت بك الأوقات
+‏سيرفر Power دائم التواجد لذلك أقترب ولا تزيد أضعاف المسافة. :hearts: **
+https://discord.gg/uhDudK
 
 `) 
 }).catch(console.error)
