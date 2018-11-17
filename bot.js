@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const iR25RR = new Discord.Client();
 
     console.log('---------------');
-    console.log('Power IS Online')
+    console.log('Nshr Start')
     console.log('---------------')
  
 iR25RR.on("guildMemberAdd", member => {
@@ -10,9 +10,9 @@ iR25RR.on("guildMemberAdd", member => {
   return channel.send(`
 
 **
--أحادثينا حقيقية وتواجدنا دائم حتى وأن ضاقت بك الأوقات
-‏سيرفر Power دائم التواجد لذلك أقترب ولا تزيد أضعاف المسافة. :hearts: **
-https://discord.gg/uhDudK
+:blue_heart:  ألنجوُم تثبٌت ولكن ألٌاراضي لآ تثبتً
+**
+https://discord.gg/au6eCz2
 
 `) 
 }).catch(console.error)
