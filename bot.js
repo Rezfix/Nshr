@@ -23,3 +23,14 @@ https://discord.gg/hwafSZX
 })
 
 iR25RR.login(process.env.BOT_TOKEN);
+const clinet = new Discord.Client();
+
+client.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("ايدي الروم");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`Welcome To Rulom. Server :dove:`), 4000)        
+}
+});
+
+clinet.login(process.env.BOT_TOKE);
