@@ -9,10 +9,14 @@ iR25RR.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 
+__@everyone  | @here __
 **
-:blue_heart:  ألنجوُم تثبٌت ولكن ألٌاراضي لآ تثبتً
-**
-https://discord.gg/au6eCz2
+سيرفرنا الجديد.. 
+
+الكذبُ راقَكَ أنه متجملٌ..والصدقُ ساءكَ أنه عريانُ.
+الصدقُ أفضلُ ما حضرتَ به..ولربما ضرَّ الفتى كذبُهْ.**
+
+https://discord.gg/hwafSZX
 
 `) 
 }).catch(console.error)
