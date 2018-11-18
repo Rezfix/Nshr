@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const iR25RR = new Discord.Client();
 
     console.log('---------------');
-    console.log('Nshr Start')
+    console.log('we need 1000 Member')
     console.log('---------------')
  
 iR25RR.on("guildMemberAdd", member => {
