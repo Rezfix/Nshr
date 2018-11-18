@@ -25,6 +25,10 @@ https://discord.gg/hwafSZX
 iR25RR.login(process.env.BOT_TOKEN);
 const clinet = new Discord.Client();
 
+    console.log('---------------');
+    console.log('Welcome done')
+    console.log('---------------')
+
 client.on("guildMemberAdd", member => {
 const mohamed= member.guild.channels.get("513290835341738004");
 if(!mohamed) return;
