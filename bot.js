@@ -1,9 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-    console.log('---------------');
-    console.log('we need 1000 Member')
-    console.log('---------------')
+    console.log('---------------------------------------');
+    console.log('============== NextaBot ==============')
+    console.log('---------------------------------------')
+
+    client.on('ready', () => {
+        console.log("i'm Ready");
+        client.user.setActivity('NextaBot', { type: 'playing' });
+    });
  
 client.on("guildMemberAdd", member => {
     if(!sWlc[member.guild.id]) sWlc[member.guild.id] = {
@@ -79,9 +84,5 @@ member.guild.fetchInvites().then(guildInvites => {
     }
     });
 
-    client.on('ready', () => {
-        console.log("i'm Ready");
-        client.user.setActivity('NextaBot', { type: 'playing' });
-    });
 
 client.login(process.env.BOT_TOKEN);
